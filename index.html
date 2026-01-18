@@ -68,8 +68,8 @@ src="https://www.facebook.com/tr?id=2033204063915538&ev=PageView&noscript=1"
   </div>
 
   <script>
-    let remainingSeconds = 60;
-    let remainingSeconds2 = 60; // Add this line for the second countdown
+    let remainingSeconds = 30;
+    let remainingSeconds2 = 30; // Add this line for the second countdown
   
     function updateCountdown() {
       document.getElementById("countdown").innerHTML = `${remainingSeconds}`;
@@ -79,10 +79,10 @@ src="https://www.facebook.com/tr?id=2033204063915538&ev=PageView&noscript=1"
       remainingSeconds2 -= 1; // Update the second countdown
   
       if (remainingSeconds < 0) {
-        remainingSeconds = 60; 
+        remainingSeconds = 30; 
       }
       if (remainingSeconds2 < 0) { // Update the second countdown
-        remainingSeconds2 = 60;
+        remainingSeconds2 = 30;
       }
     }
   
@@ -118,5 +118,6 @@ document.onkeydown = function(e) {
 
 </body>
 </html>
+
 
 
